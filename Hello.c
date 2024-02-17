@@ -9,6 +9,10 @@ int main()
     printf("The value of f is %.1f\n", f);
     printf("%lu\n", sizeof(age));
     bool complete = false;
-    printf("The value of complete is %d", complete);
+    printf("The value of complete is %d\n", complete);
+    int user_age;
+    printf("Please enter your age: ");
+    scanf("%d", &user_age);
+    printf("Thank you! Your age is %d\n", user_age);
     return 0;
 }

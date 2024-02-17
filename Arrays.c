@@ -3,7 +3,10 @@ void main()
 {
     // Declaring an array
     int list[25];
-
+    /**
+     * @brief The sizeof operator returns the size of the array in bytes. Hence, when we divide the value returned by sizeof operator by the first element in the array, we get the actual size of the array.
+     *
+     */
     // Entering values in array
     int n = sizeof(list) / sizeof(list[0]);
     for (int i = 0; i < n; i++)
